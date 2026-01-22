@@ -6,7 +6,6 @@ Network security researcher & infrastructure hacker.
 $ whoami
 → building tools for cdn security research
 → breaking & fixing network infrastructure  
-→ starlink + vps + wireguard enthusiast
 ```
 
 ### Currently
