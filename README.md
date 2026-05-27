@@ -1,23 +1,23 @@
 ### Hi, I'm @useruserdev
 
-I build tools and tinker with networks.
+Building tools and tinkering with networks.
 
 ---
 
-<a href="https://github.com/useruserdev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=useruserdev&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=transparent" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=useruserdev&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Top Languages" />
-</a>
+<p align="center">
+  <img src="profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Profile details" />
+</p>
 
-<a href="https://github.com/useruserdev">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=useruserdev&hide_border=true&theme=transparent" alt="GitHub Streak" />
-</a>
+<p align="center">
+  <img src="profile-summary-card-output/nord_dark/3-stats.svg" alt="GitHub Stats" />
+  <img src="profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="Repos per language" />
+</p>
 
----
+<p align="center">
+  <img src="profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Most commit language" />
+  <img src="profile-summary-card-output/nord_dark/4-productive-time.svg" alt="Productive time" />
+</p>
 
-#### Pinned
-
-- **[godscanner](https://github.com/useruserdev/godscanner)** — fast scanner
-- **[cloudfront-scanner](https://github.com/useruserdev/cloudfront-scanner)** — SNI-based IP scanner
-- **[Furious](https://github.com/useruserdev/Furious)** — PySide6 proxy client (fork)
-- **[antigravity-terminal-fix](https://github.com/useruserdev/antigravity-terminal-fix)** — PowerShell terminal fix
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=useruserdev&theme=nord&hide_border=true" alt="GitHub Streak" />
+</p>
