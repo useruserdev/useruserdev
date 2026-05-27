@@ -1,4 +1,4 @@
-name: stats
+name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
@@ -9,30 +9,15 @@ concurrency:
   group: stats
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
+    name: generate-summary-cards
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          python-version: '3.12'
-
-      - name: Install HTTPX
-        run: pip install --upgrade httpx
-
-      - name: Download stats
-        run: python download_stats.py
-
-      - name: Configure Git for GitHub Actions bot
-        run: |
-          git config --local user.name 'github-actions[bot]'
-          git config --local user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Commit if stats have changed
-        run: |
-          git diff --quiet || (git add --all && git commit -m "Update stats" && git push)
+          USERNAME: ${{ github.repository_owner }}
